@@ -1,0 +1,22 @@
+{
+    "screen":{
+        "oscuro":"Modo oscuro",
+        "claro":"Modo claro",
+        "text-color":"Elige color de tema:",
+        "language":"Idioma:"
+    },
+    "profile":{
+        "rol":"Desarrollador Front-end",
+        "description":"Soy Agustín, tengo una sólida formación en el desarrollo web. Me especializo en el frontend utilizando tecnologías como React y JavaScript, también tengo experiencia en backend con Node.js y Express. Estoy en constante aprendizaje, disfruto trabajar en equipo para resolver problemas de manera colaborativa al crear interfaces eficientes, escalables y fáciles de usar."
+    },
+    "experience":{
+        "title":"Experiencia",
+        "first-job-title":"Desarrollador Front-end",
+        "first-job-dates":"Mayo 2024 - Septiembre 2024",
+        "first-job-description":"Capacitacion en Vortex IT",
+        "second-job-title":"Desarrollador Back-end",
+        "second-job-dates":"Mayo 2024 - Septiembre 2024",
+        "second-job-description":"Capacitacion en Vortex IT"
+    }
+    
+}

@@ -6,6 +6,32 @@ const toggleColors = document.getElementById('toggle-colors');
 
 const rootStyles = document.documentElement.style;
 
+const flagsElemets = document.getElementById('flags');
+
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async (language) =>{
+    const requestJson = await fetch(`../languages/${language}.json`);
+    const texts = await requestJson.json();
+    for( const textToChange of textsToChange){
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value
+        textToChange.innerHTML = texts[section][value]
+    }
+    /* for( const textToChange of textsToChange){
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+        console.log("leggue")
+
+        textToChange.innerHTML = texts[section][value];
+    } */
+}
+
+flagsElemets.addEventListener('click',(e)=>{
+    const newLanguage = e.target.parentElement.dataset.language;
+    changeLanguage(newLanguage);
+})
+
 toggleTheme.addEventListener('click', ()=>{
     document.body.classList.toggle('dark')
     if(toggleIcon.src.includes("moon.svg")){

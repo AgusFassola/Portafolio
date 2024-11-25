@@ -38,7 +38,7 @@ body.dark{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 75px;
     padding:  0 1.5em;
     background-color: var(--bg-card-color);
@@ -66,6 +66,23 @@ body.dark{
 .toggle-theme__text{
     font-size: 0.8rem;
 }
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    display: block;
+    cursor: pointer;
+}
+
 .colors{
     display: flex;
     align-items: center;
@@ -73,6 +90,7 @@ body.dark{
     height: 20px;
     width: 100px;
 }
+
 
 .colors__item{
     width: 20px;
