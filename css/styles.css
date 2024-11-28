@@ -305,6 +305,8 @@ body.dark{
 }
 
 .project__tag{
+    font-size: .7rem;
+    font-weight: bold;
     padding: .4em .8em;
     border-radius: var(--border-radius);
     background-color: var(--primary-color);

@@ -2,7 +2,7 @@
     "screen":{
         "oscuro":"Modo oscuro",
         "claro":"Modo claro",
-        "text-color":"Elige color de tema:",
+        "text-color":"Tema:",
         "language":"Idioma:"
     },
     "profile":{
