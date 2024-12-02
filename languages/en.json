@@ -5,6 +5,15 @@
         "text-color":"Theme:",
         "language":"Language:"
     },
+    "pages":{
+        "vortex_one":"Tool management page, has a login that distinguishes between roles, on the page you can delete, add, see the details or modify the tools.",
+        "vortex_two":"Can be accessed as a user or as an admin, the latter can create a new user, view those that are registered and delete them if you wish.",
+        "vortex_three":"In addition, the list can be ordered ascending or descending, by different fields (description, category, assigned user) or filtered by some word / letter.",
+        "vortex_four":"When creating a new user, the password is encrypted with jwt.",
+        "full_one":"Task management page where you can edit, delete or create a new task, it also has a login to log in.",
+        "full_two": "Can be accessed as a user or as an administrator, the latter can create a new user.", 
+        "full_three": "The list can be sorted alphabetically or filtered from the search engine."
+    },
     "profile":{
         "rol":"Front-end Developer",
         "description":"I am Agustín, I have a solid background in web development. I specialize in frontend using technologies like React and JavaScript, I also have backend experience with Node.js and Express. I am constantly learning, I enjoy working as a team to solve problems collaboratively by creating efficient, scalable and easy-to-use interfaces."

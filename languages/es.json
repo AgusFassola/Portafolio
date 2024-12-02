@@ -5,6 +5,15 @@
         "text-color":"Tema:",
         "language":"Idioma:"
     },
+    "pages":{
+        "vortex_one":"Página para la gestión de herramientas, cuenta con un login que distingue entre roles, en la página se puede eliminar, agregar, ver los detalles o modificar las herramientas.",
+        "vortex_two":"Se puede acceder como usuario o como admin, éste último puede crear un usuario nuevo, ver los que están registrados y eliminarlos si lo desea.",
+        "vortex_three":"Además la lista se puede ordenar ascendente o descendente, por distintos campos(descripción, categoría, usuario asignado) o filtrarlos por alguna palabra/letra.",
+        "vortex_four":"Al crear un nuevo usuario, la contraseña queda encriptada con jwt.",
+        "full_one":"Página para gestionar tareas en la cual se puede editar, eliminar o crear una nueva tarea, también cuenta con un login para iniciar sesión.",
+        "full_two":"Se puede acceder como usuario o como administrador, éste último puede crear un usuario nuevo.",
+        "full_three":"La lista se puede ordenar alfabeticamente o filtrar desde el buscador."
+    },
     "profile":{
         "rol":"Desarrollador Front-end",
         "description":"Soy Agustín, tengo una sólida formación en el desarrollo web. Me especializo en el frontend utilizando tecnologías como React y JavaScript, también tengo experiencia en backend con Node.js y Express. Estoy en constante aprendizaje, disfruto trabajar en equipo para resolver problemas de manera colaborativa al crear interfaces eficientes, escalables y fáciles de usar."
